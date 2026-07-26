@@ -1,8 +1,28 @@
 aid: data-sciences-international
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/data-sciences-international.png
 name: Data Sciences International
-description: Data Sciences International is a company surfaced as a portfolio company of canaan-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Data Sciences International (DSI) is a preclinical research instrumentation and
+  services company for in vivo physiology and translational research, operating as
+  part of Harvard Bioscience. DSI builds implantable and external telemetry systems,
+  respiratory measurement (plethysmography, airway mechanics, pulmonary function),
+  inhalation and smoke-exposure systems, iPRECIO infusion pumps, and behavioral
+  monitoring (VivaMARS), paired with analysis software (Ponemah, FinePointe, NeuroScore)
+  and surgical, data-analysis, GLP-validation and training services. It is a
+  laboratory-instrument and life-sciences vendor rather than an API provider; no public
+  developer API, SDK, or OpenAPI surface is published. Surfaced as a portfolio company
+  of canaan-partners and profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/data-sciences-international/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Life Sciences
+- Preclinical Research
+- Physiology
+- Telemetry
+- Medical Devices
+- Laboratory Instruments
+- Data Analysis
 apis: []
+common:
+- type: DomainSecurity
+  url: security/data-sciences-international-domain-security.yml
+- type: Website
+  url: https://www.datasci.com/
+- type: Support
+  url: https://support.datasci.com/
+- type: PrivacyPolicy
+  url: https://www.harvardbioscience.com/privacy-policy
+- type: TermsOfService
+  url: https://www.harvardbioscience.com/terms-and-conditions
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
